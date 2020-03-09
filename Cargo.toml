@@ -8,3 +8,5 @@ edition = "2018"
 
 [dependencies]
 rodio = "0.10"
+tui = { version = "0.8", default-features = false, features = ['crossterm'] }
+crossterm = "0.14"
